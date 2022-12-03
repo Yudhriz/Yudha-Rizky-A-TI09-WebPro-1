@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 3.2</title>
+</head>
+<body>
+    <div style="font-family: Arial; font-size: 14;">
+    <table align="center" style="border: 3px solid black;">
+        <tr>
+            <th><a style="text-decoration: none; color: black; " href="index.html">Home</a></th>
+            <td style="padding-right: 1cm;">|</td>
+            <th><a style="text-decoration: none; color: black;" href="index.html">About</a></th>
+            <td style="padding-right: 1cm;">|</td>
+            <th><a style="text-decoration: none; color: black; " href="index.html">Transaction History</a></th>
+            <td style="padding-right: 1cm;">|</td>
+            <th><a style="text-decoration: none; color: black;" href="index.html">Policy</a></th>
+            <td style="padding-right: 1cm;">|</td>
+            <th style="padding-right: 2cm;"><a style="text-decoration: none; color: black;" href="index.html">Login/Logout</a></th>
+        </tr>
+    </table>
+    </div>
+    <br><br>
+    <div style="font-family: 'Times New Roman', Times, serif; font-size: 12;">
+    <form action="success-checkout.html">
+        <table>
+            <tr>
+            <td rowspan="13"><input style="cursor: pointer;" type="file" name="file-photo" id="photo" accept="image/png, image/jpeg"></td>
+            </tr>
+            <tr>
+                <td><label for="title">Title Here
+                </label></td>
+                <td>: <input type="text" id="title"></td>
+            </tr>
+            <tr>
+                <td><label for="description">Description
+                </label></td>
+                <td>: <textarea type="text" id="description"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="accountN">Account Number
+                </label></td>
+                <td>: <input type="text" id="accountN"></td>
+            </tr>
+            <tr>
+                <td><label for="bank">Bank
+                </label></td>
+                <td>: <select name="bank">
+                    <option value="bca">BCA</option>
+                    <option value="bri">BRI</option>
+                    <option value="hsbc">HSBC</option>
+                    <option value="cimb">Cimb Niaga</option>
+                    <option value="mandiri">Mandiri</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="accountH">Account Holder
+                </label></td>
+                <td>: <input type="text" id="accountH"></td>
+            </tr>
+            <tr>
+                <td><label for="transaction">Transaction
+                </label></td>
+                <td>: <input style="width: 30px;" type="number" id="transaction" min="1" max="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>*Maximal transaction adalah 3</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="send-to-mobile-phone">
+                    <label for="send-to-mobile-phone">Send to Mobile Phone</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" id="send-to-email">
+                    <label for="send-to-email">Send to Email</label></td>
+            </tr>
+            <tr>
+                <td><label for="send-to-mobile-phone">Send to Mobile Phone
+                </label></td>
+                <td>: <input type="text" id="send-to-mobile-phone"></td>
+            </tr>
+            <tr>
+                <td><label for="send-to-email">Send to Email
+                </label></td>
+                <td>: <input type="text" id="send-to-email"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button style="background-color: blue; width: 130px; color: white;" type="submit">Submit</button></td>
+            </tr>
+        </table>   
+    </form>
+    </div>
+</body>
+</html>

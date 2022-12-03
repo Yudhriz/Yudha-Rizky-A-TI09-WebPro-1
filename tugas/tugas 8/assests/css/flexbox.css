@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+article, aside {
+    min-width: 20vw;
+}
+footer, header {
+    min-height:15vh;
+}
+
+nav {
+    background-color: darkmagenta;
+    min-width: 15vw;
+}
+header {
+    background-color: blueviolet;
+}
+article {
+    background-color: brown;
+    flex-grow: 1;
+}
+aside {
+    background-color: darkcyan;
+}
+footer {
+    background-color: darkred;
+}
+
+nav, header, article, aside, footer {
+    margin: 0;
+}
